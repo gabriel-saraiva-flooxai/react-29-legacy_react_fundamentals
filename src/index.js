@@ -5,5 +5,5 @@ import Primeiro from './components/PrimeiroComponente';
 
 const elemento = document.getElementById('root')
 ReactDOM.render(
-  <Primeiro />
+  <Primeiro txt='Primeiro Componente com props denovo' />
 , elemento)

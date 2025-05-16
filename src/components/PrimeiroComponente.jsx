@@ -1,7 +1,7 @@
 import React from "react";
 
-export default function Primeiro() {
+export default function Primeiro(props) {
     return (
-        <h1>Primeiro Componente denovo</h1>
+        <h1>{props.txt}</h1>
     )
 }
