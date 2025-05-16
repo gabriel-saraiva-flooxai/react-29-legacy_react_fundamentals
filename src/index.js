@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Primeiro from './components/PrimeiroComponente';
+import { Comp1, Comp2 as B } from './components/DoisComponentes';
 
 const elemento = document.getElementById('root')
 ReactDOM.render(
-  <Primeiro txt='Primeiro Componente com props denovo' />
+  <div >
+    <Comp1 valor='asdfghjklç'/>
+    <B valor='qwertyuiop'/>
+  </div>
 , elemento)
