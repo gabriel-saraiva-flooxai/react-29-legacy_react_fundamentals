@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import { Comp1, Comp2 as B } from './components/DoisComponentes';
+import MultiElementos from './components/MultiElementos';
 
 const elemento = document.getElementById('root')
 ReactDOM.render(
   <div >
-    <Comp1 valor='asdfghjklç'/>
-    <B valor='qwertyuiop'/>
+    <MultiElementos />
   </div>
 , elemento)
