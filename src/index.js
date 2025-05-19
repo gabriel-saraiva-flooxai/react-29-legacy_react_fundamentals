@@ -9,10 +9,12 @@ import Membro from './components/Membro';
 import ComponenteComFuncao from './components/ComponenteComFuncao';
 import Pai from './components/Pai';
 import ComponenteClasse from './components/ComponenteClasse';
+import Contador from './components/Contador';
 
 const elemento = document.getElementById('root')
 ReactDOM.render(
   <div >
+    <Contador numero={0} />
     <ComponenteClasse texto='' />
     <Pai />
     <Familia sobrenome='dos Santos' cep='Santos'>
