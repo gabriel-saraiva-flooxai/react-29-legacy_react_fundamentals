@@ -8,10 +8,12 @@ import Familia from './components/Familia';
 import Membro from './components/Membro';
 import ComponenteComFuncao from './components/ComponenteComFuncao';
 import Pai from './components/Pai';
+import ComponenteClasse from './components/ComponenteClasse';
 
 const elemento = document.getElementById('root')
 ReactDOM.render(
   <div >
+    <ComponenteClasse texto='' />
     <Pai />
     <Familia sobrenome='dos Santos' cep='Santos'>
       <Membro nome='Fabiana' />
